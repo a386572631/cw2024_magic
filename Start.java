@@ -86,7 +86,7 @@ public class Start {
                 break;
         }
         for (int i = 0; i < random_south_or_nurth; i++) {
-            num_list.add(random_pos_south_or_nurth, remove_list.get(i));
+            num_list.add(random_pos_south_or_nurth++, remove_list.get(i));
         }
         System.out.println("执行完第四步(南方人拿一张，北方人拿两张，不确定拿三张)操作后的数列集合：" + num_list);
 
